@@ -1,0 +1,42 @@
+[
+  {
+    "ticker": "ALGN",
+    "sharpe_ratio": 1.333280579455101
+  },
+  {
+    "ticker": "AMP",
+    "sharpe_ratio": 1.2036564346701817
+  },
+  {
+    "ticker": "ACN",
+    "sharpe_ratio": 0.9603839782771647
+  },
+  {
+    "ticker": "ADBE",
+    "sharpe_ratio": 0.9258588698822012
+  },
+  {
+    "ticker": "AMAT",
+    "sharpe_ratio": 0.9215444234573106
+  },
+  {
+    "ticker": "AMGN",
+    "sharpe_ratio": 0.9163697866288486
+  },
+  {
+    "ticker": "AJG",
+    "sharpe_ratio": 0.6352060628278986
+  },
+  {
+    "ticker": "AIG",
+    "sharpe_ratio": 0.6287699118503974
+  },
+  {
+    "ticker": "AFL",
+    "sharpe_ratio": 0.5259828068595467
+  },
+  {
+    "ticker": "ACGL",
+    "sharpe_ratio": 0.4599480256724522
+  }
+]

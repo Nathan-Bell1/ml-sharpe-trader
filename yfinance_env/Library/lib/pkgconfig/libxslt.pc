@@ -1,0 +1,12 @@
+prefix=C:/Users/natha/ml-trading-bot/yfinance_env/Library
+exec_prefix=C:/Users/natha/ml-trading-bot/yfinance_env/Library
+libdir=C:/Users/natha/ml-trading-bot/yfinance_env/Library/lib
+includedir=C:/Users/natha/ml-trading-bot/yfinance_env/Library/include
+
+
+Name: libxslt
+Version: 1.1.43
+Description: XSLT library version 2.
+Requires: libxml-2.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lxslt

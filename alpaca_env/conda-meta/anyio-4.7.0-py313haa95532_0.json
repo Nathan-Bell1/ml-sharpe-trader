@@ -1,0 +1,726 @@
+{
+  "build": "py313haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "trio >=0.26.1"
+  ],
+  "depends": [
+    "idna >=2.8",
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313",
+    "sniffio >=1.1"
+  ],
+  "extracted_package_dir": "C:\\Users\\natha\\anaconda3\\pkgs\\anyio-4.7.0-py313haa95532_0",
+  "files": [
+    "Lib/site-packages/anyio-4.7.0.dist-info/INSTALLER",
+    "Lib/site-packages/anyio-4.7.0.dist-info/LICENSE",
+    "Lib/site-packages/anyio-4.7.0.dist-info/METADATA",
+    "Lib/site-packages/anyio-4.7.0.dist-info/RECORD",
+    "Lib/site-packages/anyio-4.7.0.dist-info/REQUESTED",
+    "Lib/site-packages/anyio-4.7.0.dist-info/WHEEL",
+    "Lib/site-packages/anyio-4.7.0.dist-info/direct_url.json",
+    "Lib/site-packages/anyio-4.7.0.dist-info/entry_points.txt",
+    "Lib/site-packages/anyio-4.7.0.dist-info/top_level.txt",
+    "Lib/site-packages/anyio/__init__.py",
+    "Lib/site-packages/anyio/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/anyio/__pycache__/from_thread.cpython-313.pyc",
+    "Lib/site-packages/anyio/__pycache__/lowlevel.cpython-313.pyc",
+    "Lib/site-packages/anyio/__pycache__/pytest_plugin.cpython-313.pyc",
+    "Lib/site-packages/anyio/__pycache__/to_process.cpython-313.pyc",
+    "Lib/site-packages/anyio/__pycache__/to_thread.cpython-313.pyc",
+    "Lib/site-packages/anyio/_backends/__init__.py",
+    "Lib/site-packages/anyio/_backends/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/anyio/_backends/__pycache__/_asyncio.cpython-313.pyc",
+    "Lib/site-packages/anyio/_backends/__pycache__/_trio.cpython-313.pyc",
+    "Lib/site-packages/anyio/_backends/_asyncio.py",
+    "Lib/site-packages/anyio/_backends/_trio.py",
+    "Lib/site-packages/anyio/_core/__init__.py",
+    "Lib/site-packages/anyio/_core/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_asyncio_selector_thread.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_eventloop.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_exceptions.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_fileio.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_resources.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_signals.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_sockets.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_streams.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_subprocesses.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_synchronization.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_tasks.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_testing.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/__pycache__/_typedattr.cpython-313.pyc",
+    "Lib/site-packages/anyio/_core/_asyncio_selector_thread.py",
+    "Lib/site-packages/anyio/_core/_eventloop.py",
+    "Lib/site-packages/anyio/_core/_exceptions.py",
+    "Lib/site-packages/anyio/_core/_fileio.py",
+    "Lib/site-packages/anyio/_core/_resources.py",
+    "Lib/site-packages/anyio/_core/_signals.py",
+    "Lib/site-packages/anyio/_core/_sockets.py",
+    "Lib/site-packages/anyio/_core/_streams.py",
+    "Lib/site-packages/anyio/_core/_subprocesses.py",
+    "Lib/site-packages/anyio/_core/_synchronization.py",
+    "Lib/site-packages/anyio/_core/_tasks.py",
+    "Lib/site-packages/anyio/_core/_testing.py",
+    "Lib/site-packages/anyio/_core/_typedattr.py",
+    "Lib/site-packages/anyio/abc/__init__.py",
+    "Lib/site-packages/anyio/abc/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/anyio/abc/__pycache__/_eventloop.cpython-313.pyc",
+    "Lib/site-packages/anyio/abc/__pycache__/_resources.cpython-313.pyc",
+    "Lib/site-packages/anyio/abc/__pycache__/_sockets.cpython-313.pyc",
+    "Lib/site-packages/anyio/abc/__pycache__/_streams.cpython-313.pyc",
+    "Lib/site-packages/anyio/abc/__pycache__/_subprocesses.cpython-313.pyc",
+    "Lib/site-packages/anyio/abc/__pycache__/_tasks.cpython-313.pyc",
+    "Lib/site-packages/anyio/abc/__pycache__/_testing.cpython-313.pyc",
+    "Lib/site-packages/anyio/abc/_eventloop.py",
+    "Lib/site-packages/anyio/abc/_resources.py",
+    "Lib/site-packages/anyio/abc/_sockets.py",
+    "Lib/site-packages/anyio/abc/_streams.py",
+    "Lib/site-packages/anyio/abc/_subprocesses.py",
+    "Lib/site-packages/anyio/abc/_tasks.py",
+    "Lib/site-packages/anyio/abc/_testing.py",
+    "Lib/site-packages/anyio/from_thread.py",
+    "Lib/site-packages/anyio/lowlevel.py",
+    "Lib/site-packages/anyio/py.typed",
+    "Lib/site-packages/anyio/pytest_plugin.py",
+    "Lib/site-packages/anyio/streams/__init__.py",
+    "Lib/site-packages/anyio/streams/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/anyio/streams/__pycache__/buffered.cpython-313.pyc",
+    "Lib/site-packages/anyio/streams/__pycache__/file.cpython-313.pyc",
+    "Lib/site-packages/anyio/streams/__pycache__/memory.cpython-313.pyc",
+    "Lib/site-packages/anyio/streams/__pycache__/stapled.cpython-313.pyc",
+    "Lib/site-packages/anyio/streams/__pycache__/text.cpython-313.pyc",
+    "Lib/site-packages/anyio/streams/__pycache__/tls.cpython-313.pyc",
+    "Lib/site-packages/anyio/streams/buffered.py",
+    "Lib/site-packages/anyio/streams/file.py",
+    "Lib/site-packages/anyio/streams/memory.py",
+    "Lib/site-packages/anyio/streams/stapled.py",
+    "Lib/site-packages/anyio/streams/text.py",
+    "Lib/site-packages/anyio/streams/tls.py",
+    "Lib/site-packages/anyio/to_process.py",
+    "Lib/site-packages/anyio/to_thread.py"
+  ],
+  "fn": "anyio-4.7.0-py313haa95532_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\natha\\anaconda3\\pkgs\\anyio-4.7.0-py313haa95532_0",
+    "type": 1
+  },
+  "md5": "92ff6f55afcc35706c430c7825991e06",
+  "name": "anyio",
+  "package_tarball_full_path": "C:\\Users\\natha\\anaconda3\\pkgs\\anyio-4.7.0-py313haa95532_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/anyio-4.7.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/anyio-4.7.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+        "sha256_in_prefix": "5361ac9dc58f2ef5fd2e9b09c68297c17f04950909bbc8023bdb82eacf22c2b0",
+        "size_in_bytes": 1081
+      },
+      {
+        "_path": "Lib/site-packages/anyio-4.7.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "d36d96f671ea6406b89af4e4f12dedda61060e81163cc6143ea31b3c76cbe01f",
+        "sha256_in_prefix": "d36d96f671ea6406b89af4e4f12dedda61060e81163cc6143ea31b3c76cbe01f",
+        "size_in_bytes": 4758
+      },
+      {
+        "_path": "Lib/site-packages/anyio-4.7.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "a28847bd317135dad294695574533d8c48746fcacc003f60bf673c4f84fd4324",
+        "sha256_in_prefix": "a28847bd317135dad294695574533d8c48746fcacc003f60bf673c4f84fd4324",
+        "size_in_bytes": 5874
+      },
+      {
+        "_path": "Lib/site-packages/anyio-4.7.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/anyio-4.7.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "sha256_in_prefix": "227f454cdc5e3fad0a9d3906c3bc24ea624f61dfdd4128c46665dd05d30223ef",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "Lib/site-packages/anyio-4.7.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7f2cfd552f7f55468cb8597859d3a6579f4ccfab01bc5a7302933762b35d89af",
+        "sha256_in_prefix": "7f2cfd552f7f55468cb8597859d3a6579f4ccfab01bc5a7302933762b35d89af",
+        "size_in_bytes": 85
+      },
+      {
+        "_path": "Lib/site-packages/anyio-4.7.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "fdde98bbaba269998d7b40b2768c22ac4f429a0ef350bda0d3cb50a684b742f7",
+        "sha256_in_prefix": "fdde98bbaba269998d7b40b2768c22ac4f429a0ef350bda0d3cb50a684b742f7",
+        "size_in_bytes": 39
+      },
+      {
+        "_path": "Lib/site-packages/anyio-4.7.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "420952322597f3fe5da685401081dd118cefa8531d4985a60a3ead630d884e44",
+        "sha256_in_prefix": "420952322597f3fe5da685401081dd118cefa8531d4985a60a3ead630d884e44",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "Lib/site-packages/anyio/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e4d08a40d26e78278826a55b3a9010761a361c842b42f7277d08ee12102265c7",
+        "sha256_in_prefix": "e4d08a40d26e78278826a55b3a9010761a361c842b42f7277d08ee12102265c7",
+        "size_in_bytes": 4433
+      },
+      {
+        "_path": "Lib/site-packages/anyio/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c200eb602d7aabe736ac2626a0c94391993ce0e79c124494164c825f99470eb",
+        "sha256_in_prefix": "0c200eb602d7aabe736ac2626a0c94391993ce0e79c124494164c825f99470eb",
+        "size_in_bytes": 3190
+      },
+      {
+        "_path": "Lib/site-packages/anyio/__pycache__/from_thread.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "65de10f16dc1eeb5fee7b5022cf869b1309a20c5fcf14dcfd7664c6c8ad67a44",
+        "sha256_in_prefix": "65de10f16dc1eeb5fee7b5022cf869b1309a20c5fcf14dcfd7664c6c8ad67a44",
+        "size_in_bytes": 23709
+      },
+      {
+        "_path": "Lib/site-packages/anyio/__pycache__/lowlevel.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "6e27883059815d6349603997cd898fce524e6a75f7700dd6df5d0d74c5a86e84",
+        "sha256_in_prefix": "6e27883059815d6349603997cd898fce524e6a75f7700dd6df5d0d74c5a86e84",
+        "size_in_bytes": 6956
+      },
+      {
+        "_path": "Lib/site-packages/anyio/__pycache__/pytest_plugin.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "ed7da0586f9537b9d0e91af6f41caa87c97b1b7a929e6b4992c0ac669b1e3604",
+        "sha256_in_prefix": "ed7da0586f9537b9d0e91af6f41caa87c97b1b7a929e6b4992c0ac669b1e3604",
+        "size_in_bytes": 9802
+      },
+      {
+        "_path": "Lib/site-packages/anyio/__pycache__/to_process.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "d6cde89a548115ae5329779c8551d3c92051cfa261dbbd4e19cd7044579cf907",
+        "sha256_in_prefix": "d6cde89a548115ae5329779c8551d3c92051cfa261dbbd4e19cd7044579cf907",
+        "size_in_bytes": 11924
+      },
+      {
+        "_path": "Lib/site-packages/anyio/__pycache__/to_thread.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b6384c8a2dfbd511c2a699b1dcff34bdf531558f52279ac511d7c749ad61a96b",
+        "sha256_in_prefix": "b6384c8a2dfbd511c2a699b1dcff34bdf531558f52279ac511d7c749ad61a96b",
+        "size_in_bytes": 2798
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_backends/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_backends/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "1775b230a10e480ed9caab3311eebce14423eafec79661a67f1ceb537e98fcf8",
+        "sha256_in_prefix": "1775b230a10e480ed9caab3311eebce14423eafec79661a67f1ceb537e98fcf8",
+        "size_in_bytes": 142
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_backends/__pycache__/_asyncio.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "ee1c353c57fd80361c7032112eef5468dd482705eba0cc66ffe4c57e1c9ea7ae",
+        "sha256_in_prefix": "ee1c353c57fd80361c7032112eef5468dd482705eba0cc66ffe4c57e1c9ea7ae",
+        "size_in_bytes": 138964
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_backends/__pycache__/_trio.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "785e397695d79446305da153aae4676f116c4b5bed5ecaf601df7bc1a772d5ce",
+        "sha256_in_prefix": "785e397695d79446305da153aae4676f116c4b5bed5ecaf601df7bc1a772d5ce",
+        "size_in_bytes": 71795
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_backends/_asyncio.py",
+        "path_type": "hardlink",
+        "sha256": "8b941ee0805d896465c30d2a214015b05f8ad33df46e065a92e31e3e935b76ba",
+        "sha256_in_prefix": "8b941ee0805d896465c30d2a214015b05f8ad33df46e065a92e31e3e935b76ba",
+        "size_in_bytes": 94051
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_backends/_trio.py",
+        "path_type": "hardlink",
+        "sha256": "ee81b16ea7af7a27ac1a6da902709107276acbe19b8acb67ff17ec98a8522cb8",
+        "sha256_in_prefix": "ee81b16ea7af7a27ac1a6da902709107276acbe19b8acb67ff17ec98a8522cb8",
+        "size_in_bytes": 40371
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e50bd80f7e39b0c363b4c51eb9c58e4d5a88f79069561e307d2eddbd12b0fce5",
+        "sha256_in_prefix": "e50bd80f7e39b0c363b4c51eb9c58e4d5a88f79069561e307d2eddbd12b0fce5",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_asyncio_selector_thread.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8436b7048c61531ad03726f7e471702fe18e30f2fc28fea5eda2e083a3aab78f",
+        "sha256_in_prefix": "8436b7048c61531ad03726f7e471702fe18e30f2fc28fea5eda2e083a3aab78f",
+        "size_in_bytes": 7978
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_eventloop.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "548ffe040ba2d01060a38c9aeecd8c29c9b3f702e4a98fee468fbe6d2fdf04e2",
+        "sha256_in_prefix": "548ffe040ba2d01060a38c9aeecd8c29c9b3f702e4a98fee468fbe6d2fdf04e2",
+        "size_in_bytes": 6249
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_exceptions.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e01ef9090979bc23da2f8a7c7a0ab24e4b2b73ca2d59fb9a442963b52937d796",
+        "sha256_in_prefix": "e01ef9090979bc23da2f8a7c7a0ab24e4b2b73ca2d59fb9a442963b52937d796",
+        "size_in_bytes": 4566
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_fileio.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "eedc8f2223c88880068bbdf5df3e284b24d82f24234be1f304cd0eea5222aaf5",
+        "sha256_in_prefix": "eedc8f2223c88880068bbdf5df3e284b24d82f24234be1f304cd0eea5222aaf5",
+        "size_in_bytes": 38426
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_resources.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8f065b35e5a6a3d8790a9d0b42f6a879b82fe0e6c6d56c86f113adfb243cd2f8",
+        "sha256_in_prefix": "8f065b35e5a6a3d8790a9d0b42f6a879b82fe0e6c6d56c86f113adfb243cd2f8",
+        "size_in_bytes": 874
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_signals.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "84c9303e3615f510cffb253754880d959d1d1da040a073f115af085ddaa0bfcd",
+        "sha256_in_prefix": "84c9303e3615f510cffb253754880d959d1d1da040a073f115af085ddaa0bfcd",
+        "size_in_bytes": 1186
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_sockets.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "1e15ee0d7ada9c495a84ad3d7a35c8bf187c9c9a873cae6db9e2fa9af90fa06a",
+        "sha256_in_prefix": "1e15ee0d7ada9c495a84ad3d7a35c8bf187c9c9a873cae6db9e2fa9af90fa06a",
+        "size_in_bytes": 30714
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_streams.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "85434c25cd263802a0caa460f4e7bcf5b923230cee99191cc1259da75ebf1433",
+        "sha256_in_prefix": "85434c25cd263802a0caa460f4e7bcf5b923230cee99191cc1259da75ebf1433",
+        "size_in_bytes": 2325
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_subprocesses.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "99c4a7bb9ac4342ce1798b0689bac3af558f01ba3787627eb273d1fe01973700",
+        "sha256_in_prefix": "99c4a7bb9ac4342ce1798b0689bac3af558f01ba3787627eb273d1fe01973700",
+        "size_in_bytes": 9139
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_synchronization.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b68d3e24378214529b38d624e0fb8a7b57b8650ec00ec8be5e2221e8e5524027",
+        "sha256_in_prefix": "b68d3e24378214529b38d624e0fb8a7b57b8650ec00ec8be5e2221e8e5524027",
+        "size_in_bytes": 32170
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_tasks.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "b28cb0f53abd418d0ee5c3cb0e955c7a2687a818aef992bf6260cc2d43b2ab0a",
+        "sha256_in_prefix": "b28cb0f53abd418d0ee5c3cb0e955c7a2687a818aef992bf6260cc2d43b2ab0a",
+        "size_in_bytes": 6830
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_testing.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "e3c92d1566f2058878898028dcd2b585b290d04a599dd1c250e04ea1d55149ad",
+        "sha256_in_prefix": "e3c92d1566f2058878898028dcd2b585b290d04a599dd1c250e04ea1d55149ad",
+        "size_in_bytes": 3546
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/__pycache__/_typedattr.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "4f2af31795e7511ef086b4bcf2b38107603c41f9e8c87e3f6b305e8ad919ade2",
+        "sha256_in_prefix": "4f2af31795e7511ef086b4bcf2b38107603c41f9e8c87e3f6b305e8ad919ade2",
+        "size_in_bytes": 3728
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_asyncio_selector_thread.py",
+        "path_type": "hardlink",
+        "sha256": "bd37590566b146055c8146916f9b81c10fd51a0637a8f285ee5f75209e4cab3a",
+        "sha256_in_prefix": "bd37590566b146055c8146916f9b81c10fd51a0637a8f285ee5f75209e4cab3a",
+        "size_in_bytes": 4773
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_eventloop.py",
+        "path_type": "hardlink",
+        "sha256": "b7fb40c0114f8c5f23ad91a3949e9b6d8cba280ddb8ec6d9c55f66be1f6dd62d",
+        "sha256_in_prefix": "b7fb40c0114f8c5f23ad91a3949e9b6d8cba280ddb8ec6d9c55f66be1f6dd62d",
+        "size_in_bytes": 4695
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_exceptions.py",
+        "path_type": "hardlink",
+        "sha256": "6ca3ebd906e4606ee721be36e4be4978f5227bd6c673d5df918d32e09296bc53",
+        "sha256_in_prefix": "6ca3ebd906e4606ee721be36e4be4978f5227bd6c673d5df918d32e09296bc53",
+        "size_in_bytes": 2488
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_fileio.py",
+        "path_type": "hardlink",
+        "sha256": "0ea9c6ff3bd014caa2205694783442d53b372d3d05587916b46826fbaf3886f4",
+        "sha256_in_prefix": "0ea9c6ff3bd014caa2205694783442d53b372d3d05587916b46826fbaf3886f4",
+        "size_in_bytes": 20957
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_resources.py",
+        "path_type": "hardlink",
+        "sha256": "35b994e4ee545f7c44c800a7926617dbc166c1d97e7fe9f2d2d1f29b6e9ed30d",
+        "sha256_in_prefix": "35b994e4ee545f7c44c800a7926617dbc166c1d97e7fe9f2d2d1f29b6e9ed30d",
+        "size_in_bytes": 435
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_signals.py",
+        "path_type": "hardlink",
+        "sha256": "bee953d4cd7174b62d011f9e6394da98881a7f559394ec0eacc1b0b309534ebf",
+        "sha256_in_prefix": "bee953d4cd7174b62d011f9e6394da98881a7f559394ec0eacc1b0b309534ebf",
+        "size_in_bytes": 905
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_sockets.py",
+        "path_type": "hardlink",
+        "sha256": "bd0e469d20cb1e31211e1576cafb1d88fb39c263f1c5bd6446cbf744ce656d09",
+        "sha256_in_prefix": "bd0e469d20cb1e31211e1576cafb1d88fb39c263f1c5bd6446cbf744ce656d09",
+        "size_in_bytes": 26951
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_streams.py",
+        "path_type": "hardlink",
+        "sha256": "3a768a8280c3f8570c4b02ef92801418fe75b06d99751bcca71b7dab6c358180",
+        "sha256_in_prefix": "3a768a8280c3f8570c4b02ef92801418fe75b06d99751bcca71b7dab6c358180",
+        "size_in_bytes": 1804
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_subprocesses.py",
+        "path_type": "hardlink",
+        "sha256": "5aab91eac1eb9da6687da7aa9cbf14e18bfffff9ac556fd6aa2be578b1cae332",
+        "sha256_in_prefix": "5aab91eac1eb9da6687da7aa9cbf14e18bfffff9ac556fd6aa2be578b1cae332",
+        "size_in_bytes": 7760
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_synchronization.py",
+        "path_type": "hardlink",
+        "sha256": "b5cb7914915d8188e210cb547a0e4d186d79b5ffb641ded5696b928334b97485",
+        "sha256_in_prefix": "b5cb7914915d8188e210cb547a0e4d186d79b5ffb641ded5696b928334b97485",
+        "size_in_bytes": 20347
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_tasks.py",
+        "path_type": "hardlink",
+        "sha256": "a6f5445f6170d79f6c7f4ca900f7abba42ac660451c2f14579d556e769d1d959",
+        "sha256_in_prefix": "a6f5445f6170d79f6c7f4ca900f7abba42ac660451c2f14579d556e769d1d959",
+        "size_in_bytes": 4764
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_testing.py",
+        "path_type": "hardlink",
+        "sha256": "6141b00397201456d44efe1615dedcbff05256be2bc93b4fa7ca30400dc97561",
+        "sha256_in_prefix": "6141b00397201456d44efe1615dedcbff05256be2bc93b4fa7ca30400dc97561",
+        "size_in_bytes": 2118
+      },
+      {
+        "_path": "Lib/site-packages/anyio/_core/_typedattr.py",
+        "path_type": "hardlink",
+        "sha256": "3f8a33662927dfe0dba6861cbf28214bf14e60081b994c5ea14f3e2ffd3ba593",
+        "sha256_in_prefix": "3f8a33662927dfe0dba6861cbf28214bf14e60081b994c5ea14f3e2ffd3ba593",
+        "size_in_bytes": 2508
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7363906d3092fdf428c2f88c5da9cb3e1f26dbd71cc245e6a43afbbb235960ea",
+        "sha256_in_prefix": "7363906d3092fdf428c2f88c5da9cb3e1f26dbd71cc245e6a43afbbb235960ea",
+        "size_in_bytes": 2652
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8245e6c7acc2d082957964adee3715f2af05f3a1335aa39f81ef83dced826837",
+        "sha256_in_prefix": "8245e6c7acc2d082957964adee3715f2af05f3a1335aa39f81ef83dced826837",
+        "size_in_bytes": 2192
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/__pycache__/_eventloop.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "3b85416925da1997a52216f3e494a3580d3485c4fee0747c9f7e0cb44792d67f",
+        "sha256_in_prefix": "3b85416925da1997a52216f3e494a3580d3485c4fee0747c9f7e0cb44792d67f",
+        "size_in_bytes": 14679
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/__pycache__/_resources.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "f8e11698e0064c1806186a8c6ee1ded0cfb30102f10c2acd4bc9365a858f389a",
+        "sha256_in_prefix": "f8e11698e0064c1806186a8c6ee1ded0cfb30102f10c2acd4bc9365a858f389a",
+        "size_in_bytes": 1619
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/__pycache__/_sockets.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "05893a722e49ee43e17d9e7e3353e45340e733954de20b0996f13d8a99ca427e",
+        "sha256_in_prefix": "05893a722e49ee43e17d9e7e3353e45340e733954de20b0996f13d8a99ca427e",
+        "size_in_bytes": 9726
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/__pycache__/_streams.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "dbf611c2fbbe04e9af9d449b5564d7c742a2bc104575cf6a4a6b517685b2b605",
+        "sha256_in_prefix": "dbf611c2fbbe04e9af9d449b5564d7c742a2bc104575cf6a4a6b517685b2b605",
+        "size_in_bytes": 8294
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/__pycache__/_subprocesses.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "74de49df97847effc5dea1fa971935761d717e695d769d1ef0f0de67a7cad037",
+        "sha256_in_prefix": "74de49df97847effc5dea1fa971935761d717e695d769d1ef0f0de67a7cad037",
+        "size_in_bytes": 3108
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/__pycache__/_tasks.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "8295b3b24b0363d69ad25773176cc233353f2b75149b50a9c0d1ab72eb860b6c",
+        "sha256_in_prefix": "8295b3b24b0363d69ad25773176cc233353f2b75149b50a9c0d1ab72eb860b6c",
+        "size_in_bytes": 4366
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/__pycache__/_testing.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "616d10e0b1412cd84e1eca40a85bc35ec07bb1a7711cf127499a667254a442f9",
+        "sha256_in_prefix": "616d10e0b1412cd84e1eca40a85bc35ec07bb1a7711cf127499a667254a442f9",
+        "size_in_bytes": 2723
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/_eventloop.py",
+        "path_type": "hardlink",
+        "sha256": "59dff70b784b9b47b1e73fde1c7586aaf2e57b638a0927b12526559f040d195e",
+        "sha256_in_prefix": "59dff70b784b9b47b1e73fde1c7586aaf2e57b638a0927b12526559f040d195e",
+        "size_in_bytes": 9658
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/_resources.py",
+        "path_type": "hardlink",
+        "sha256": "0eb62f90d375847e94befe7fe6e2b24af0ec9e49c65437bc14229f928d15b4df",
+        "sha256_in_prefix": "0eb62f90d375847e94befe7fe6e2b24af0ec9e49c65437bc14229f928d15b4df",
+        "size_in_bytes": 783
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/_sockets.py",
+        "path_type": "hardlink",
+        "sha256": "2a15ad2716a7f23a415cac0f685790cc8e2245774568e227d075ed0d99da3bb5",
+        "sha256_in_prefix": "2a15ad2716a7f23a415cac0f685790cc8e2245774568e227d075ed0d99da3bb5",
+        "size_in_bytes": 6262
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/_streams.py",
+        "path_type": "hardlink",
+        "sha256": "1b3493e50db3426c55cddac0aad6d2c8737190f9480bd033799260fd8c8f017c",
+        "sha256_in_prefix": "1b3493e50db3426c55cddac0aad6d2c8737190f9480bd033799260fd8c8f017c",
+        "size_in_bytes": 6598
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/_subprocesses.py",
+        "path_type": "hardlink",
+        "sha256": "72e9803c94e4b4e42dc3adc8a86d250e9c99aaefe5d44125bd01cc8b02602f4f",
+        "sha256_in_prefix": "72e9803c94e4b4e42dc3adc8a86d250e9c99aaefe5d44125bd01cc8b02602f4f",
+        "size_in_bytes": 2067
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/_tasks.py",
+        "path_type": "hardlink",
+        "sha256": "c8959b330a30bea8e5017e2827797d22cd70fb3c329ebda55f5674d80589aac6",
+        "sha256_in_prefix": "c8959b330a30bea8e5017e2827797d22cd70fb3c329ebda55f5674d80589aac6",
+        "size_in_bytes": 3080
+      },
+      {
+        "_path": "Lib/site-packages/anyio/abc/_testing.py",
+        "path_type": "hardlink",
+        "sha256": "b41254ce449f397270db77def2a489d3790995284e6238da132141ea4e8c613f",
+        "sha256_in_prefix": "b41254ce449f397270db77def2a489d3790995284e6238da132141ea4e8c613f",
+        "size_in_bytes": 1821
+      },
+      {
+        "_path": "Lib/site-packages/anyio/from_thread.py",
+        "path_type": "hardlink",
+        "sha256": "75b8b94d41f8e7f4a0fe367c56fd4d25656885ed16790fce682bd720abde0068",
+        "sha256_in_prefix": "75b8b94d41f8e7f4a0fe367c56fd4d25656885ed16790fce682bd720abde0068",
+        "size_in_bytes": 17478
+      },
+      {
+        "_path": "Lib/site-packages/anyio/lowlevel.py",
+        "path_type": "hardlink",
+        "sha256": "9e48265bef92771195a747262d461ace392282f7919b91d8efe816f01a69f686",
+        "sha256_in_prefix": "9e48265bef92771195a747262d461ace392282f7919b91d8efe816f01a69f686",
+        "size_in_bytes": 4169
+      },
+      {
+        "_path": "Lib/site-packages/anyio/py.typed",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/anyio/pytest_plugin.py",
+        "path_type": "hardlink",
+        "sha256": "be31a11911c3df53b2320251150accbc4c61c7711af0a6f20ea60a9a24837570",
+        "sha256_in_prefix": "be31a11911c3df53b2320251150accbc4c61c7711af0a6f20ea60a9a24837570",
+        "size_in_bytes": 6712
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "81c2884da57de9a997c479edb5e7ef8de31bc90552f011b55a4bcddcc42d2612",
+        "sha256_in_prefix": "81c2884da57de9a997c479edb5e7ef8de31bc90552f011b55a4bcddcc42d2612",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/__pycache__/buffered.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "a39e5b2887e66cda86842d0e355937c27b45a3192881f3a35cd800a6575240cc",
+        "sha256_in_prefix": "a39e5b2887e66cda86842d0e355937c27b45a3192881f3a35cd800a6575240cc",
+        "size_in_bytes": 6044
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/__pycache__/file.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "5fd154515bbc6a42732622322924620c0d96433b4d23c8423ee9925790b3fc8e",
+        "sha256_in_prefix": "5fd154515bbc6a42732622322924620c0d96433b4d23c8423ee9925790b3fc8e",
+        "size_in_bytes": 7392
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/__pycache__/memory.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0e17a4732867a6fb0927828bb7797256b13f9a1ad66ed274c90577cca75bba3c",
+        "sha256_in_prefix": "0e17a4732867a6fb0927828bb7797256b13f9a1ad66ed274c90577cca75bba3c",
+        "size_in_bytes": 14808
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/__pycache__/stapled.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "554ee1a505cd6e9fbfbc2ae3c7def1e0cda5edb0857f33df721a8e656d0d03dd",
+        "sha256_in_prefix": "554ee1a505cd6e9fbfbc2ae3c7def1e0cda5edb0857f33df721a8e656d0d03dd",
+        "size_in_bytes": 7511
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/__pycache__/text.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd143ea4e1acb0f442eff881c72b8da87494d1124c3e2f558c21f56e721afea3",
+        "sha256_in_prefix": "cd143ea4e1acb0f442eff881c72b8da87494d1124c3e2f558c21f56e721afea3",
+        "size_in_bytes": 8204
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/__pycache__/tls.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "0b63ae77fb6210b6bb9b7bf203f3de4d85e630be29e1292952cd7b27e634e0ae",
+        "sha256_in_prefix": "0b63ae77fb6210b6bb9b7bf203f3de4d85e630be29e1292952cd7b27e634e0ae",
+        "size_in_bytes": 17054
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/buffered.py",
+        "path_type": "hardlink",
+        "sha256": "50295d282d7af18b8bbd3ee7dc7b4d3e743689600c49361059b66fccbc0cc243",
+        "sha256_in_prefix": "50295d282d7af18b8bbd3ee7dc7b4d3e743689600c49361059b66fccbc0cc243",
+        "size_in_bytes": 4500
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/file.py",
+        "path_type": "hardlink",
+        "sha256": "eaea1335be4a6cca23fba812dffc6bacbf2e64df10e2222f392d56b46c857cac",
+        "sha256_in_prefix": "eaea1335be4a6cca23fba812dffc6bacbf2e64df10e2222f392d56b46c857cac",
+        "size_in_bytes": 4383
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/memory.py",
+        "path_type": "hardlink",
+        "sha256": "8fc032384c4ae3e50f6a89ff5db8706b1db956ab340f0160dd95dcf842221e36",
+        "sha256_in_prefix": "8fc032384c4ae3e50f6a89ff5db8706b1db956ab340f0160dd95dcf842221e36",
+        "size_in_bytes": 10550
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/stapled.py",
+        "path_type": "hardlink",
+        "sha256": "534f690ab98ec3d9243617bab4aa29b26d5020c4f59454c5bed6fe03b4887b89",
+        "sha256_in_prefix": "534f690ab98ec3d9243617bab4aa29b26d5020c4f59454c5bed6fe03b4887b89",
+        "size_in_bytes": 4302
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/text.py",
+        "path_type": "hardlink",
+        "sha256": "eb1f30f3195f09929351642826230fa0c8524891540512a0a0135206d6ddf728",
+        "sha256_in_prefix": "eb1f30f3195f09929351642826230fa0c8524891540512a0a0135206d6ddf728",
+        "size_in_bytes": 5094
+      },
+      {
+        "_path": "Lib/site-packages/anyio/streams/tls.py",
+        "path_type": "hardlink",
+        "sha256": "9b7004d8b552a68447488c12a120aea623952f9e04bce16863709cc13c5c65f8",
+        "sha256_in_prefix": "9b7004d8b552a68447488c12a120aea623952f9e04bce16863709cc13c5c65f8",
+        "size_in_bytes": 12742
+      },
+      {
+        "_path": "Lib/site-packages/anyio/to_process.py",
+        "path_type": "hardlink",
+        "sha256": "711e27ed3b2c6db268c04ffd71699ee3dcda7aea01b8ccea819e9c048b34608b",
+        "sha256_in_prefix": "711e27ed3b2c6db268c04ffd71699ee3dcda7aea01b8ccea819e9c048b34608b",
+        "size_in_bytes": 9571
+      },
+      {
+        "_path": "Lib/site-packages/anyio/to_thread.py",
+        "path_type": "hardlink",
+        "sha256": "58cd8943631b56c7790f908cd3c6d0893c33648be9b068df1f5172db8ecaa034",
+        "sha256_in_prefix": "58cd8943631b56c7790f908cd3c6d0893c33648be9b068df1f5172db8ecaa034",
+        "size_in_bytes": 2396
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e470dc91e4076610ae95be5d01a3090266eb85d829c0f5927f7e1d35b1c75fb1",
+  "size": 274157,
+  "subdir": "win-64",
+  "timestamp": 1745334737000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/anyio-4.7.0-py313haa95532_0.conda",
+  "version": "4.7.0"
+}

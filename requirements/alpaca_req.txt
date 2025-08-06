@@ -1,0 +1,9 @@
+name: alpaca_env
+
+python 3.10
+
+alpaca-trade-api 
+pandas
+python-dotenv
+ipykernel
+notebook

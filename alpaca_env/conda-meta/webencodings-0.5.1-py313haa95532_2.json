@@ -1,0 +1,178 @@
+{
+  "build": "py313haa95532_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.13,<3.14.0a0",
+    "python_abi 3.13.* *_cp313"
+  ],
+  "extracted_package_dir": "C:\\Users\\natha\\anaconda3\\pkgs\\webencodings-0.5.1-py313haa95532_2",
+  "files": [
+    "Lib/site-packages/webencodings-0.5.1.dist-info/INSTALLER",
+    "Lib/site-packages/webencodings-0.5.1.dist-info/LICENSE",
+    "Lib/site-packages/webencodings-0.5.1.dist-info/METADATA",
+    "Lib/site-packages/webencodings-0.5.1.dist-info/RECORD",
+    "Lib/site-packages/webencodings-0.5.1.dist-info/REQUESTED",
+    "Lib/site-packages/webencodings-0.5.1.dist-info/WHEEL",
+    "Lib/site-packages/webencodings-0.5.1.dist-info/direct_url.json",
+    "Lib/site-packages/webencodings-0.5.1.dist-info/top_level.txt",
+    "Lib/site-packages/webencodings/__init__.py",
+    "Lib/site-packages/webencodings/__pycache__/__init__.cpython-313.pyc",
+    "Lib/site-packages/webencodings/__pycache__/labels.cpython-313.pyc",
+    "Lib/site-packages/webencodings/__pycache__/mklabels.cpython-313.pyc",
+    "Lib/site-packages/webencodings/__pycache__/tests.cpython-313.pyc",
+    "Lib/site-packages/webencodings/__pycache__/x_user_defined.cpython-313.pyc",
+    "Lib/site-packages/webencodings/labels.py",
+    "Lib/site-packages/webencodings/mklabels.py",
+    "Lib/site-packages/webencodings/tests.py",
+    "Lib/site-packages/webencodings/x_user_defined.py"
+  ],
+  "fn": "webencodings-0.5.1-py313haa95532_2.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\natha\\anaconda3\\pkgs\\webencodings-0.5.1-py313haa95532_2",
+    "type": 1
+  },
+  "md5": "a52de5853ad3791cc15a43f25adba6a5",
+  "name": "webencodings",
+  "package_tarball_full_path": "C:\\Users\\natha\\anaconda3\\pkgs\\webencodings-0.5.1-py313haa95532_2.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/webencodings-0.5.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/webencodings-0.5.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "f23bae6ada76095610a77137fb92aec7342723900211c5826d54b4c57907ca56",
+        "sha256_in_prefix": "f23bae6ada76095610a77137fb92aec7342723900211c5826d54b4c57907ca56",
+        "size_in_bytes": 1490
+      },
+      {
+        "_path": "Lib/site-packages/webencodings-0.5.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b336a52e5b5104b4c364adfb75af58b6bb3fcf78c787de6025d99ea210e5443e",
+        "sha256_in_prefix": "b336a52e5b5104b4c364adfb75af58b6bb3fcf78c787de6025d99ea210e5443e",
+        "size_in_bytes": 2180
+      },
+      {
+        "_path": "Lib/site-packages/webencodings-0.5.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "dd7f1aabf73dcb7ee44b1a12ea96cb848006ebb36d3fefa0c49d1f264496f104",
+        "sha256_in_prefix": "dd7f1aabf73dcb7ee44b1a12ea96cb848006ebb36d3fefa0c49d1f264496f104",
+        "size_in_bytes": 1382
+      },
+      {
+        "_path": "Lib/site-packages/webencodings-0.5.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/webencodings-0.5.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "0075fab56937a96b9c7bbbca2eb8fb967ba554711d5a896d81aba8f1b8025e05",
+        "sha256_in_prefix": "0075fab56937a96b9c7bbbca2eb8fb967ba554711d5a896d81aba8f1b8025e05",
+        "size_in_bytes": 109
+      },
+      {
+        "_path": "Lib/site-packages/webencodings-0.5.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "3b4e766cda83577ec03cc9b568af35f89017e55e8ff71789c419d8c8264d8079",
+        "sha256_in_prefix": "3b4e766cda83577ec03cc9b568af35f89017e55e8ff71789c419d8c8264d8079",
+        "size_in_bytes": 120
+      },
+      {
+        "_path": "Lib/site-packages/webencodings-0.5.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "6d9b3f6991d27ff3cd95f2070f8f81113266462f7d04974a2eb396eeb42781ea",
+        "sha256_in_prefix": "6d9b3f6991d27ff3cd95f2070f8f81113266462f7d04974a2eb396eeb42781ea",
+        "size_in_bytes": 13
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "a8e04922e3f2ff8072607e96fdb360245faa610d83a14f9d2ac0eee724560978",
+        "sha256_in_prefix": "a8e04922e3f2ff8072607e96fdb360245faa610d83a14f9d2ac0eee724560978",
+        "size_in_bytes": 10579
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/__pycache__/__init__.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "7ecb7561d5ced031d1bd058ffc43bbfb6cd89076c33061ebf14790deb3465207",
+        "sha256_in_prefix": "7ecb7561d5ced031d1bd058ffc43bbfb6cd89076c33061ebf14790deb3465207",
+        "size_in_bytes": 11706
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/__pycache__/labels.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "05708aac9d386c81d84151f5f1c0a21d4c2f8b9618aafcdc18cdebe37f7ebf1c",
+        "sha256_in_prefix": "05708aac9d386c81d84151f5f1c0a21d4c2f8b9618aafcdc18cdebe37f7ebf1c",
+        "size_in_bytes": 7056
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/__pycache__/mklabels.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "13054d1549f4157aa30e713b05bac09d1d6fd727a182b026ce8619be7275ffdd",
+        "sha256_in_prefix": "13054d1549f4157aa30e713b05bac09d1d6fd727a182b026ce8619be7275ffdd",
+        "size_in_bytes": 2609
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/__pycache__/tests.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "88ca2693e19c23c0352cd2a93ddf0b365f106bb060a3cd931eb7628a442c3882",
+        "sha256_in_prefix": "88ca2693e19c23c0352cd2a93ddf0b365f106bb060a3cd931eb7628a442c3882",
+        "size_in_bytes": 9295
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/__pycache__/x_user_defined.cpython-313.pyc",
+        "path_type": "hardlink",
+        "sha256": "4eb04505c15ad686ed212299fa750c74181f434bbcc4eca0da5d10bcef84ea63",
+        "sha256_in_prefix": "4eb04505c15ad686ed212299fa750c74181f434bbcc4eca0da5d10bcef84ea63",
+        "size_in_bytes": 3373
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/labels.py",
+        "path_type": "hardlink",
+        "sha256": "e003bf2b14dd76a1adacbf67b3b9003e36f409c37ac6c088c5b2b7ec763daf71",
+        "sha256_in_prefix": "e003bf2b14dd76a1adacbf67b3b9003e36f409c37ac6c088c5b2b7ec763daf71",
+        "size_in_bytes": 8979
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/mklabels.py",
+        "path_type": "hardlink",
+        "sha256": "19821ecb09e968b9cfd064a273c2c55a0774515bcefe5d4d73a62817ef3b47fe",
+        "sha256_in_prefix": "19821ecb09e968b9cfd064a273c2c55a0774515bcefe5d4d73a62817ef3b47fe",
+        "size_in_bytes": 1305
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/tests.py",
+        "path_type": "hardlink",
+        "sha256": "3ad18bca384d6357ef916d46bcb27f155f59a2a0bd027ca3afbab79314dbccdb",
+        "sha256_in_prefix": "3ad18bca384d6357ef916d46bcb27f155f59a2a0bd027ca3afbab79314dbccdb",
+        "size_in_bytes": 6563
+      },
+      {
+        "_path": "Lib/site-packages/webencodings/x_user_defined.py",
+        "path_type": "hardlink",
+        "sha256": "c8ea9649d9a9cad19f52087f67a258803361a1cf81007cb279e4f5e45af8dad3",
+        "sha256_in_prefix": "c8ea9649d9a9cad19f52087f67a258803361a1cf81007cb279e4f5e45af8dad3",
+        "size_in_bytes": 4307
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "bb68a6e30e8cc2cbc35db519e279d853c07c2685543344ef0302149bc5852824",
+  "size": 27457,
+  "subdir": "win-64",
+  "timestamp": 1729039598000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/webencodings-0.5.1-py313haa95532_2.conda",
+  "version": "0.5.1"
+}
