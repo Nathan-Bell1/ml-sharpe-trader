@@ -1,7 +1,5 @@
 # Sharpe Ratio ML-Based Trading Bot
 
-video demo: https://youtu.be/7FM4VRJnjPw   
-
 ## Overview
 
 This project that I made is a daily trading system that calculates and trades S&P 500 stocks by Sharpe ratios. Using machine learning tools from sklearn, the program predicts future return and volatility of each stock. Then, the program sells any current holdings and buys the top 10 highest scoring (highest Sharpe score) stocks from a trading account. For this project I used the free paper trader from Alpaca Markets API to execute trades.
