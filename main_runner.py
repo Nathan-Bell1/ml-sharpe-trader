@@ -10,16 +10,16 @@ def run_command(command, env_name):
         result = subprocess.run(command, shell=True, capture_output=True, text=True)
         
         if result.returncode == 0:
-            print(f"✅ {env_name} completed successfully")
+            print(f"{env_name} completed successfully")
             if result.stdout:
                 print(result.stdout)
         else:
-            print(f"❌ {env_name} failed:")
+            print(f"{env_name} failed:")
             print(result.stderr)
             return False
             
     except Exception as e:
-        print(f"❌ Error running {env_name}: {e}")
+        print(f"Error running {env_name}: {e}")
         return False
     
     return True
@@ -34,13 +34,13 @@ def wait_for_rankings():
     
     while wait_time < max_wait:
         if os.path.exists('shared_data') and any(f.startswith('rankings_') for f in os.listdir('shared_data')):
-            print("✅ Rankings found!")
+            print("Rankings found!")
             return True
         time.sleep(5)
         wait_time += 5
         print(f"Still waiting... ({wait_time}s)")
     
-    print("❌ Timeout waiting for rankings")
+    print("Timeout waiting for rankings")
     return False
 
 def run_data_analysis():
@@ -82,16 +82,16 @@ def check_prerequisites():
     
     for file in required_files:
         if not check_file_exists(file):
-            print(f"❌ Missing required file: {file}")
+            print(f"Missing required file: {file}")
             return False
     
     for directory in required_dirs:
         if not check_file_exists(directory):
-            print(f"❌ Missing required environment: {directory}")
+            print(f"Missing required environment: {directory}")
             print(f"Create it with: python -m venv {directory}")
             return False
     
-    print("✅ All prerequisites found")
+    print("All prerequisites found")
     return True
 
 def main():
@@ -100,22 +100,22 @@ def main():
     print("=" * 50)
     
     if not check_prerequisites():
-        print("❌ Prerequisites not met. Please set up environments and files first.")
+        print("Prerequisites not met. Please set up environments and files first.")
         return False
     
     if not run_data_analysis():
-        print("❌ Data analysis failed. Stopping.")
+        print("Data analysis failed. Stopping.")
         return False
     
     print("\n⏳ Waiting 10 seconds before trading...")
     time.sleep(10)
     
     if not run_trading():
-        print("❌ Trading failed.")
+        print("Trading failed.")
         return False
     
     print("=" * 50)
-    print("✅ TRADING SYSTEM COMPLETED SUCCESSFULLY!")
+    print("TRADING SYSTEM COMPLETED SUCCESSFULLY!")
     print(f"Time: {datetime.now()}")
     print("=" * 50)
     
@@ -165,10 +165,10 @@ if __name__ == "__main__":
             success = main()
             sys.exit(0 if success else 1)
         except KeyboardInterrupt:
-            print("\n🛑 Trading system stopped by user")
+            print("\nTrading system stopped by user")
             sys.exit(1)
         except Exception as e:
-            print(f"❌ Unexpected error: {e}")
+            print(f"Unexpected error: {e}")
             sys.exit(1)
 
 
