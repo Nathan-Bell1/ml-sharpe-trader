@@ -1,10 +1,5 @@
-name: yfinance_env
-
 python 3.10
-
 pandas
 yfinance
 scikit-learn
 lxml
-ipykernel
-notebook
