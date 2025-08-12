@@ -140,6 +140,4 @@ ML-SHARPE-TRADER/
 ├── main_runner.py
 └── README.md
 
-
-
 ```
