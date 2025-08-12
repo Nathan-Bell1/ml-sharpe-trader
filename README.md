@@ -1,4 +1,4 @@
-# Sharpe Ratio ML-Based Trading Bot
+# Algorithmic Trading System Using Machine Learning Predicted Sharpe Ratios
 
 ## Overview
 
