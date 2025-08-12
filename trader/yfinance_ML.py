@@ -116,7 +116,7 @@ class TradingEngine:
         if tickers is None:
             tickers = get_sp500_tickers()
 
-        ranked = self.rank_stocks(tickers[:30])
+        ranked = self.rank_stocks(tickers[:])
 
         df_ranked = pd.DataFrame(ranked, columns=['Ticker', 'SharpeRatio'])
         df_ranked = df_ranked.sort_values(by='SharpeRatio', ascending=False).head(top_n)
