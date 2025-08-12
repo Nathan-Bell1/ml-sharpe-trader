@@ -1,23 +1,72 @@
 {
-  "ADBE": {
-    "quantity": 3,
-    "expected_price": 338.725,
-    "sharpe_ratio": 0.9258588698822012,
-    "order_id": "bd5f948f-4ae3-49ed-98d2-e3b1ad10f4c3",
-    "timestamp": "2025-08-05T19:04:42.250893"
+  "ALGN": {
+    "quantity": 127,
+    "expected_price": 140.7,
+    "sharpe_ratio": 1.3314216232041989,
+    "order_id": "b54b3485-d396-4226-8d08-58589f798c89",
+    "timestamp": "2025-08-12T13:33:15.171448"
   },
-  "AMAT": {
-    "quantity": 7,
-    "expected_price": 179.16,
-    "sharpe_ratio": 0.9215444234573106,
-    "order_id": "8b1eb656-adf2-4f95-9ff4-4a992159ac35",
-    "timestamp": "2025-08-05T19:04:42.399669"
+  "ADBE": {
+    "quantity": 52,
+    "expected_price": 338.66,
+    "sharpe_ratio": 1.2379489963004413,
+    "order_id": "567dbe3b-2acf-48b4-9683-f8779918303c",
+    "timestamp": "2025-08-12T13:33:15.304918"
   },
   "AIG": {
-    "quantity": 16,
-    "expected_price": 78.46,
-    "sharpe_ratio": 0.6287699118503974,
-    "order_id": "1f064680-57a0-4b0b-a189-2a99d0c32430",
-    "timestamp": "2025-08-05T19:04:42.829577"
+    "quantity": 228,
+    "expected_price": 78.425,
+    "sharpe_ratio": 0.9018421950510509,
+    "order_id": "dae95049-dab2-4e1f-bebb-366506a238d0",
+    "timestamp": "2025-08-12T13:33:15.443384"
+  },
+  "ACN": {
+    "quantity": 75,
+    "expected_price": 237.43,
+    "sharpe_ratio": 0.7050125444138445,
+    "order_id": "2fdd234e-2d8e-49e5-8754-95b804b1f5c3",
+    "timestamp": "2025-08-12T13:33:15.597586"
+  },
+  "AES": {
+    "quantity": 1383,
+    "expected_price": 12.94,
+    "sharpe_ratio": 0.5272984203797304,
+    "order_id": "b51df7f6-62d1-4e15-a376-edb7dcda4e52",
+    "timestamp": "2025-08-12T13:33:15.730466"
+  },
+  "AFL": {
+    "quantity": 172,
+    "expected_price": 103.66,
+    "sharpe_ratio": 0.514981164205874,
+    "order_id": "cce0b93d-d806-491c-80e3-8997453d20c5",
+    "timestamp": "2025-08-12T13:33:15.859993"
+  },
+  "AWK": {
+    "quantity": 125,
+    "expected_price": 142.26,
+    "sharpe_ratio": 0.2756406453238444,
+    "order_id": "2fe07ac6-857d-475e-8d37-f54f8164dce4",
+    "timestamp": "2025-08-12T13:33:15.990389"
+  },
+  "AXP": {
+    "quantity": 59,
+    "expected_price": 302.86,
+    "sharpe_ratio": 0.22325491766332015,
+    "order_id": "fba0d4d7-98c8-49d4-88fb-53ed34e98d62",
+    "timestamp": "2025-08-12T13:33:16.127333"
+  },
+  "ABBV": {
+    "quantity": 90,
+    "expected_price": 198.34,
+    "sharpe_ratio": 0.20543998998156804,
+    "order_id": "55700e23-d664-4543-b0db-073e07212d3e",
+    "timestamp": "2025-08-12T13:33:16.258627"
+  },
+  "ABNB": {
+    "quantity": 147,
+    "expected_price": 121.295,
+    "sharpe_ratio": 0.09617643791064977,
+    "order_id": "ba7adec8-4924-40a0-80b7-d2d41d855d88",
+    "timestamp": "2025-08-12T13:33:16.388845"
   }
 }

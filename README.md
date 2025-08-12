@@ -1,38 +1,63 @@
 # Sharpe Ratio ML-Based Trading Bot
 
-video demo: https://youtu.be/7FM4VRJnjPw   
-
 ## Overview
 
-This project that I made is a daily trading system that calculates and trades S&P 500 stocks by Sharpe ratios. Using machine learning tools from sklearn, the program predicts future return and volatility of each stock. Then, the program sells any current holdings and buys the top 10 highest scoring (highest Sharpe score) stocks from a trading account. For this project I used the free paper trader from Alpaca Markets API to execute trades.
+This project is a daily trading system trades S&P 500 stocks by Sharpe ratios. Using machine learning tools from sklearn, the program predicts future return and volatility of each stock. The program sells any current holdings and buys the top 10 highest scoring (highest Sharpe score) stocks from a trading account. For this project I used the free paper trader from Alpaca Markets API to execute trades.
+
+#### For educational purposes! (read Concluding Results)
 
 ## The Three Development Stages:
 ### 1. Data Fetching using Yahoo Finance
-My first step when creating the trading bot was to brainstorm a performance metric to rank the stocks. I orginally thought of just predicting returns and using that as my only trading metric, but I knew that would lead to risky investments with a limited portfolio. So to balance the result, I predicted the volitlity too and combined both to form the Sharpe score.
+My first step when creating the trading bot was to brainstorm a performance metric to rank the stocks. I originally thought of just predicting returns and using that as my only trading metric, but I knew that would lead to risky investments with a limited portfolio. So to balance the result, I predicted the volatility too and combined both to form the Sharpe score.
 
 #### To clarify, in this bot I am ranking stocks using the simplified Sharpe ratio, omiting the risk-free rate portion of the equation from my calculations to obatain the risk-adjusted return.
 
-Now I was able to start applying the RandomForrestRegressor (imported from Scikit-learn) to my downloaded Yahoo Finance data. I decided to formulate my Sharpe esimate for the next trading day, as opposed to a week ahead as that will give the most accurate predictions using recent data. I trained the ML model on the entire history of past data that I had for stock returns and also volitility. I had to create my own volitility estimate. For each stock I used the standard deviation of the last 5 days of its returns. 
+Now I was able to start applying the RandomForestRegressor (imported from Scikit-learn) to my downloaded Yahoo Finance data. I decided to formulate my Sharpe esimate for the next trading day, as opposed to a week ahead as that allows me to make the most accurate predictions using recent data. I trained the ML model on the entire history of past data that I had for stock returns and also volitility. I had to create my own volitility estimate. For each stock I used the standard deviation of the last 5 days of its returns. 
 
-Developing a dataframe with the top 10 highest ranked stocksm I decided to look purely at the stocks in the S&P 500 for simplicity. 
+When developing the dataframe with the top 10 highest ranked stocks, I decided to look purely at the stocks in the S&P 500 for simplicity. 
 
 ### 2. Trading Using Alpaca Markets
 
-Deciding on Alpaca for my trading simulation wasn't a hard choice as it had all the tools I needed a place to trade that was easily accessible to new users and without a fee. I did not require a live trader for the sake of the project but one can be implemented later. Alpaca has their own live trader if a user wants to apply the trading bot for their own use.
+Deciding on Alpaca for my trading simulation wasn't a hard choice as it had all the tools I needed to place trades and was easily accessible to new users without a fee. I did not require a live trader for the sake of the project but one can be implemented. Alpaca has their own live trader if a user wants to apply the trading bot for their own use.
 
-I implemented the use of a .env file so that each user could, privately, use their own account with an api_key and secret_key from Alpaca.
+I implemented the use of a .env file so that each user could, privately, use their own account with an api_key and secret_key from Alpaca Markets.
 
 ### 3. Main Trading Runner
 
-After trial and error, I decided to use a seperate file to join Step 1 (the Yahoo Finance logic) and Step 2 (the Alpaca logic) since their dependencies differ. So, I created a seperate python enviorment for each using Anaconda and automated the running process. My main_runner.py file runs the yfinance_ML.py file to give me the stocks I want to buy and next runs the alpaca_trader.py to actually process trades. 
+After trial and error, I decided to use a separate file to join step 1 (the Yahoo Finance logic) and step 2 (the Alpaca logic) since their dependencies differ. So, I created a separate python enviorment for each using Anaconda and automated the running process. The main_runner.py file runs the yfinance_ML.py file to generate data of which stocks to buy and then runs the alpaca_trader.py to actually process said trades. 
 
-A lot of the work in the main file was searching for file and venv locations and coordinating them together. Additonally, making the program compatible for all operating systems added a few more lines of code too.
+A lot of the work in the main_trader.py file was searching for file and venv locations and coordinating them together. Additionally, making the program compatible for all operating systems added a few more lines of code.
+
+---
+
+## Concluding Results
+
+This project aimed to explore applying machine learning to trading strategies rather than generating profitable investments. As expected, the strategy performed poorly, with an estimated daily loss of about $1,000 on a $180,000 portfolio. Key areas for improvement include:
+
+1. **Buy and Sell Logic**  
+   The bot immediately sells all holdings whenever it buys new stocks, which is unrealistic. A better approach would involve holding positions for multiple days and only selling based on clear exit criteria.
+
+2. **Feature and Model Complexity**  
+   Using only basic price and volume data with simple Random Forest models limited predictive power. Incorporating technical indicators and experimenting with more advanced models like gradient boosting or neural networks would improve results.
+
+3. **Realistic Backtesting**  
+   The current setup lacks transaction costs, slippage, and portfolio management. Implementing a proper backtesting engine with cash tracking and realistic trades would provide more meaningful insights.
+
+4. **Reducing Overtrading**  
+   Daily rebalancing causes excessive turnover and noise. Longer holding periods or adaptive signals would create a more stable strategy.
+
+Overall, this project was a valuable learning experience that highlighted challenges in combining machine learning with finance. Future work will focus on building a modular backtester and improving evaluation to create more realistic and effective trading algorithms.
 
 ---
 
 ## How to Use the Trading Bot
 
 Follow these steps to run the automated trading bot:
+
+### Requirements
+
+- Python 3.10 recommended for both environments
+- Go to the requirements folder
 
 ### 1. Clone the Repository
 

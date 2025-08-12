@@ -1,0 +1,32 @@
+{
+  "ALGN": {
+    "sharpe_ratio": 1.3314216232041989
+  },
+  "ADBE": {
+    "sharpe_ratio": 1.2379489963004413
+  },
+  "AIG": {
+    "sharpe_ratio": 0.9018421950510509
+  },
+  "ACN": {
+    "sharpe_ratio": 0.7050125444138445
+  },
+  "AES": {
+    "sharpe_ratio": 0.5272984203797304
+  },
+  "AFL": {
+    "sharpe_ratio": 0.514981164205874
+  },
+  "AWK": {
+    "sharpe_ratio": 0.2756406453238444
+  },
+  "AXP": {
+    "sharpe_ratio": 0.22325491766332015
+  },
+  "ABBV": {
+    "sharpe_ratio": 0.20543998998156804
+  },
+  "ABNB": {
+    "sharpe_ratio": 0.09617643791064977
+  }
+}

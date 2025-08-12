@@ -1,10 +1,10 @@
-name: yfinance_env
+# name: yfinance_env
+# Requires Python >=3.10,<3.11
 
-python 3.10
-
+# conda
 pandas
-yfinance
 scikit-learn
 lxml
-ipykernel
-notebook
+#pip
+yfinance
+ 

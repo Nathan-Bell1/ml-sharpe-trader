@@ -1,0 +1,42 @@
+[
+  {
+    "ticker": "ADBE",
+    "sharpe_ratio": 1.9965243955749545
+  },
+  {
+    "ticker": "ALGN",
+    "sharpe_ratio": 1.2678558068129122
+  },
+  {
+    "ticker": "AFL",
+    "sharpe_ratio": 1.1126276544423979
+  },
+  {
+    "ticker": "AMP",
+    "sharpe_ratio": 0.8077440222712094
+  },
+  {
+    "ticker": "ACN",
+    "sharpe_ratio": 0.8005198564440997
+  },
+  {
+    "ticker": "AMT",
+    "sharpe_ratio": 0.7123221986692913
+  },
+  {
+    "ticker": "AJG",
+    "sharpe_ratio": 0.6241653906304951
+  },
+  {
+    "ticker": "APO",
+    "sharpe_ratio": 0.6121800724555327
+  },
+  {
+    "ticker": "ADI",
+    "sharpe_ratio": 0.4937729332753431
+  },
+  {
+    "ticker": "AMCR",
+    "sharpe_ratio": 0.38378809231057565
+  }
+]

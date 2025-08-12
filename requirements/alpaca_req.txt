@@ -1,9 +1,9 @@
-name: alpaca_env
+# name: alpaca_env
+# Requires Python >=3.10,<3.11
 
-python 3.10
-
-alpaca-trade-api 
+# conda
 pandas
 python-dotenv
-ipykernel
-notebook
+#pip
+alpaca-trade-api
+

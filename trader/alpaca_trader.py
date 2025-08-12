@@ -299,9 +299,6 @@ def main():
         print("\nPortfolio Summary:")
         print(f"  Total Value: ${summary['total_portfolio_value']:,.2f}")
         print(f"  Day Change: ${summary['day_change']:,.2f}")
-        print(f"  Positions: {summary['total_positions']}")
 
 if __name__ == "__main__":
     main()
-
-

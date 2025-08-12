@@ -1,4 +1,4 @@
-#!C:\Users\natha\ml-trading-bot\yfinance_env\python.exe
+#!C:\Users\natha\GitHub\ml-sharpe-trader\yfinance_env\Scripts\python.exe
 
 import datetime
 import os
