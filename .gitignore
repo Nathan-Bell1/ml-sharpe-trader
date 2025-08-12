@@ -1,3 +1,4 @@
 .vscode
 alpaca_env/
 yfinance_env/
+shared_data/

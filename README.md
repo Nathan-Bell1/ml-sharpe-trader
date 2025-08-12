@@ -2,9 +2,7 @@
 
 ## Overview
 
-This project is a daily trading system trades S&P 500 stocks by Sharpe ratios. Using machine learning tools from sklearn, the program predicts future return and volatility of each stock. The program sells any current holdings and buys the top 10 highest scoring (highest Sharpe score) stocks from a trading account. For this project I used the free paper trader from Alpaca Markets API to execute trades.
-
-#### For educational purposes! (read Concluding Results)
+This project implements a daily trading system for S&P 500 stocks based on predicted Sharpe ratios. Using machine learning models from scikit-learn, the system forecasts each stock’s future return and volatility. It ranks stocks by their predicted Sharpe ratio and rebalances the portfolio by selling holdings that fall out of the top 10 and buying new stocks that enter the top ranks, while retaining existing holdings that remain in the top selections. Trades are executed through the free paper trading API provided by Alpaca Markets.
 
 ## The Three Development Stages:
 ### 1. Data Fetching using Yahoo Finance
@@ -34,19 +32,16 @@ A lot of the work in the main_trader.py file was searching for file and venv loc
 
 This project aimed to explore applying machine learning to trading strategies rather than generating profitable investments. As expected, the strategy performed poorly, with an estimated daily loss of about $1,000 on a $180,000 portfolio. Key areas for improvement include:
 
-1. **Buy and Sell Logic**  
-   The bot immediately sells all holdings whenever it buys new stocks, which is unrealistic. A better approach would involve holding positions for multiple days and only selling based on clear exit criteria.
-
-2. **Feature and Model Complexity**  
+1. **Feature and Model Complexity**  
    Using only basic price and volume data with simple Random Forest models limited predictive power. Incorporating technical indicators and experimenting with more advanced models like gradient boosting or neural networks would improve results.
 
-3. **Realistic Backtesting**  
+2. **Realistic Backtesting**  
    The current setup lacks transaction costs, slippage, and portfolio management. Implementing a proper backtesting engine with cash tracking and realistic trades would provide more meaningful insights.
 
-4. **Reducing Overtrading**  
+3. **Reducing Overtrading**  
    Daily rebalancing causes excessive turnover and noise. Longer holding periods or adaptive signals would create a more stable strategy.
 
-Overall, this project was a valuable learning experience that highlighted challenges in combining machine learning with finance. Future work will focus on building a modular backtester and improving evaluation to create more realistic and effective trading algorithms.
+Overall, this project was a valuable learning experience that highlighted challenges in combining machine learning with finance.
 
 ---
 
@@ -78,12 +73,6 @@ python -m venv yfinance_env
 python -m venv alpaca_env
 ```
 
-> Alternatively, if you’re using Conda:
-```bash
-conda create -n yfinance_env python=3.10
-conda create -n alpaca_env python=3.10
-```
-
 ### 3. Install Dependencies
 
 Activate each environment and install required packages.
@@ -97,7 +86,7 @@ yfinance_env\Scripts\activate
 # Activate (macOS/Linux)
 source yfinance_env/bin/activate
 
-pip install yfinance pandas numpy scikit-learn lxml
+pip install -r .\requirements\yfinance_req.txt
 ```
 
 **In `alpaca_env`:**
@@ -109,7 +98,7 @@ alpaca_env\Scripts\activate
 # Activate (macOS/Linux)
 source alpaca_env/bin/activate
 
-pip install alpaca-trade-api pandas numpy python-dotenv
+pip install -r .\requirements\alpaca_req.txt
 ```
 
 ### 4. Configure API Keys
@@ -132,25 +121,25 @@ From the project root, run:
 python main_runner.py
 ```
 
-This will:
-
-- Analyze and rank stocks based on ML-predicted Sharpe ratio.
-- Wait for the rankings to be generated.
-- Sell old positions and buy the top 10 ranked stocks.
-
 ---
 
 **File Structure:**
 
 ```
-your_project/
+ML-SHARPE-TRADER/
+├── alpaca_env/
+├── requirements/
+│   ├── alpaca_req.txt
+│   └── yfinance_req.txt
+├── shared_data/
 ├── trader/
 │   ├── __init__.py
-│   ├── yfinance_ML.py
-│   └── alpaca_trader.py
+│   ├── alpaca_trader.py
+│   └── yfinance_ML.py
 ├── yfinance_env/
-├── alpaca_env/
-├── shared_data/
-├── .env
-└── main_runner.py
+├── main_runner.py
+└── README.md
+
+
+
 ```
