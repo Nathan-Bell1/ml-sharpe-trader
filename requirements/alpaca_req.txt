@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # name: alpaca_env
 # Requires Python >=3.10,<3.11
 
@@ -7,3 +8,9 @@ python-dotenv
 #pip
 alpaca-trade-api
 
+=======
+# Python 3.10
+alpaca-trade-api 
+pandas
+python-dotenv
+>>>>>>> ff4579b3f9de3f3857135fb37b1986be66c661a3

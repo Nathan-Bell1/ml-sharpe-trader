@@ -1,10 +1,17 @@
+<<<<<<< HEAD
 # name: yfinance_env
 # Requires Python >=3.10,<3.11
 
 # conda
+=======
+# Python 3.10
+>>>>>>> ff4579b3f9de3f3857135fb37b1986be66c661a3
 pandas
 scikit-learn
 lxml
+<<<<<<< HEAD
 #pip
 yfinance
  
+=======
+>>>>>>> ff4579b3f9de3f3857135fb37b1986be66c661a3
